@@ -1,0 +1,48 @@
+{
+  "name": "passport-zebedee",
+  "version": "0.0.1",
+  "description": "Zebedee (OAuth 2.0) authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "zebedee",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Níckolas Goline",
+    "email": "nickolas@zebedee.io",
+    "url": "http://www.zebedee.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zebedeeio/passport-zebedee.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zebedeeio/passport-zebedee/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.4.6",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha --require ./test/bootstrap/node --recursive"
+  }
+}
